@@ -6,6 +6,8 @@ def bubble_sort(list):
             if list[j] > list[j+1]:
                 list[j], list[j+1] = list[j+1], list[j]
                 swapped = True
+        if swapped == False:
+            break
     print(list)
 
 
